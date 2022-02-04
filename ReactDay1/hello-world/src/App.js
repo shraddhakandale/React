@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+// importing component
+import Greet from './Components/Greet'; // this is the way of importing default exports
+// import { Greet } from './Components/Greet'; // this is the way of importing named exports
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "App">
+        <Greet></Greet>
     </div>
   );
 }
