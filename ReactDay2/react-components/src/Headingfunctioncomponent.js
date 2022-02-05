@@ -6,4 +6,4 @@ function Heading(){
 }
 
 // we have to export the component
-export default Heading;
+export default Heading; 
