@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 import Heading from "./Headingfunctioncomponent";
 import List from "./Listfunctioncomponent";
 // in such type of import we can give any name to the import
